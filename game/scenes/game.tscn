@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dp0vhmk4t8jgu"]
+
+[ext_resource type="Texture2D" uid="uid://bv4f1f6tci7p3" path="res://icon.svg" id="1_uwrxv"]
+[ext_resource type="Script" uid="uid://mjjpkrt2i7mm" path="res://scenes/game.gd" id="1_yqjtg"]
+
+[node name="Game" type="Node" unique_id=1441151470]
+script = ExtResource("1_yqjtg")
+
+[node name="GDExample" type="GDExample" parent="." unique_id=1285902514]
+position = Vector2(2.0591292, 10.971168)
+texture = ExtResource("1_uwrxv")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=852441175]

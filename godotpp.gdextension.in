@@ -1,0 +1,11 @@
+[configuration]
+entry_symbol = "godotpp_library_init"
+compatibility_minimum = 4.6
+
+[libraries]
+macos.debug.arm64 = "res://bin/macos/arm64/libGodotPP.dylib"
+macos.release.arm64 = "res://bin/macos/arm64/libGodotPP.dylib"
+windows.debug.x86_64 = "res://bin/windows/GodotPP.dll"
+windows.release.x86_64 = "res://bin/windows/GodotPP.dll"
+linux.debug.x86_64 = "res://bin/linux/libGodotPP.so"
+linux.release.x86_64 = "res://bin/linux/libGodotPP.so"
