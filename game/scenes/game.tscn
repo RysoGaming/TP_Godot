@@ -7,7 +7,7 @@
 script = ExtResource("1_yqjtg")
 
 [node name="GDExample" type="GDExample" parent="." unique_id=1285902514]
-position = Vector2(2.0591292, 10.971168)
+position = Vector2(8.470059, 19.93372)
 texture = ExtResource("1_uwrxv")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=852441175]
